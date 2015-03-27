@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-sift-and-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This component is like an autocomplete skeleton. It sifts through a list based on a search query and loops over a sorted list.",
   "directories": {
     "doc": "doc",
