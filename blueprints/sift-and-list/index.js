@@ -1,5 +1,5 @@
 module.exports = {
-  description: 'Sift and List Component',
+  normalizeEntityName: function() {},
   afterInstall: function(options) {
     return this.addBowerPackageToProject('sifter');
     // Perform extra work here.
