@@ -1,0 +1,9 @@
+{{#each item in results}}
+  {{! the component is being used in the block form, so we yield}}
+  {{#if template.blockParams}}
+    {{yield item}}
+  {{! no block so just display the item}}
+  {{else}}
+    {{item}}
+  {{/if}}
+{{/each}}

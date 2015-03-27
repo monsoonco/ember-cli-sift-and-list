@@ -1,0 +1,11 @@
+{{input value=searchInput}}
+<ul>
+{{#sift-and-list
+  sortBy="title"
+  list=list
+  searchInput=searchInput
+  results=results as |result|
+}}
+  <li>{{result.title}}</li>
+{{/sift-and-list}}
+</ul>
