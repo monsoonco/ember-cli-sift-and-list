@@ -26,7 +26,7 @@ export default Ember.Component.extend({
         direction: 'asc',
       };
     });
-  }.property('fields', 'sortBy'),
+  }.property('_fields'),
   changeResults: function(){
     let searchField = this.get('searchInput');
     let fields = this.get('_fields');
