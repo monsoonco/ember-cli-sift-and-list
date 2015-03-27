@@ -1,6 +1,26 @@
 # Ember-cli-sift-and-list
 
-This README outlines the details of collaborating on this Ember addon.
+Here's the basic interface of this component:
+
+```handlebars
+
+{{input value=searchInput}}
+<ul>
+{{#sift-and-list
+  sortBy="title"
+  list=list
+  searchInput=searchInput
+  results=results as |result|
+}}
+  <li>{{result.title}}</li>
+{{/sift-and-list}}
+</ul>
+
+```
+
+# Collaborating
+
+This outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
