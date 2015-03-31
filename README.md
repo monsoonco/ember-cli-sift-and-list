@@ -1,24 +1,20 @@
 # Ember-cli-sift-and-list
 
-[![Build Status](https://travis-ci.org/soulim/ember-cli-bootstrap-datepicker.svg?branch=master&style=flat)](https://travis-ci.org/soulim/ember-cli-bootstrap-datepicker)
-
 The add-on provides you a date input component based on amazing bootstrap-datepicker library. It supports popup and inline mode, and can be used in Ember CLI applications.
-
-[Online demo](http://sul.im/ember-cli-bootstrap-datepicker)
 
 ## Installation
 
 If you are using Ember CLI 0.1.5 and higher, just run within your project directory:
 
 ```bash
-ember install:addon ember-cli-bootstrap-datepicker
+ember install:addon ember-cli-sift-and-list
 ```
 
 When your Ember CLI version is below 0.1.5, please run within your project directory:
 
 ```bash
-npm install --save-dev ember-cli-bootstrap-datepicker
-ember generate bootstrap-datepicker
+npm install --save-dev ember-cli-sift-and-list
+ember generate ember-cli-sift-and-list
 ```
 
 ## Usage
